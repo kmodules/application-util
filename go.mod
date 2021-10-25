@@ -94,7 +94,7 @@ replace k8s.io/utils => k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 
 replace sigs.k8s.io/application => github.com/kubepack/application v0.8.4-0.20200705202912-9d241d6484e3
 
-replace github.com/satori/go.uuid => github.com/gofrs/uuid v4.0.0+incompatible
+replace github.com/satori/go.uuid => github.com/gomodules/uuid v4.0.0+incompatible
 
 replace github.com/dgrijalva/jwt-go => github.com/gomodules/jwt v3.2.2+incompatible
 
