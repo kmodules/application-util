@@ -3,24 +3,23 @@ github.com/davecgh/go-spew/spew
 # github.com/evanphx/json-patch v4.11.0+incompatible
 ## explicit
 github.com/evanphx/json-patch
+# github.com/fsnotify/fsnotify v1.5.1
+## explicit
 # github.com/gogo/protobuf v1.3.2 => github.com/gogo/protobuf v1.3.1
 github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/sortkeys
 # github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 ## explicit
 github.com/golang/glog
-# github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e
-## explicit
 # github.com/golang/protobuf v1.5.2 => github.com/golang/protobuf v1.3.2
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes/struct
-# github.com/google/go-cmp v0.5.6
-## explicit
 # github.com/google/gofuzz v1.1.0
 github.com/google/gofuzz
-# github.com/json-iterator/go v1.1.11
+# github.com/google/uuid v1.3.0
 ## explicit
+# github.com/json-iterator/go v1.1.11
 github.com/json-iterator/go
 # github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
 github.com/modern-go/concurrent
@@ -30,7 +29,6 @@ github.com/modern-go/reflect2
 ## explicit
 github.com/pkg/errors
 # golang.org/x/crypto v0.0.0-20210314154223-e6e6c4f2bb5b
-## explicit
 golang.org/x/crypto/ssh/terminal
 # golang.org/x/lint v0.0.0-20200302205851-738671d3881b
 ## explicit
@@ -42,22 +40,21 @@ golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 # golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-## explicit
 golang.org/x/oauth2
 golang.org/x/oauth2/internal
-# golang.org/x/sys v0.0.0-20210423082822-04245dca01da
+# golang.org/x/sys v0.0.0-20210817190340-bfb29a6856f2
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1
+# golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
 golang.org/x/term
-# golang.org/x/text v0.3.6
+# golang.org/x/text v0.3.7
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
+# golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 golang.org/x/time/rate
 # google.golang.org/appengine v1.6.7
 google.golang.org/appengine/internal
@@ -128,9 +125,11 @@ k8s.io/client-go/util/keyutil
 k8s.io/client-go/util/workqueue
 # k8s.io/klog v1.0.0
 k8s.io/klog
-# k8s.io/utils v0.0.0-20210527160623-6fdb442a123b => k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
+# k8s.io/kube-openapi v0.0.0-20210421082810-95288971da7e => k8s.io/kube-openapi v0.0.0-20200410145947-61e04a5be9a6
+## explicit
+# k8s.io/utils v0.0.0-20210802155522-efc7438f0176 => k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 k8s.io/utils/integer
-# kmodules.xyz/client-go v0.0.0-20211013093146-1fbfd52e78c9
+# kmodules.xyz/client-go v0.0.0-20220215012708-9963581d69a7
 ## explicit
 kmodules.xyz/client-go
 # sigs.k8s.io/application v0.8.2-0.20200306235134-f10d9ca8abd4 => github.com/kubepack/application v0.8.4-0.20200705202912-9d241d6484e3
@@ -173,7 +172,7 @@ sigs.k8s.io/yaml
 # helm.sh/helm/v3 => github.com/kubepack/helm/v3 v3.6.1-0.20210518225915-c3e0ce48dd1b
 # k8s.io/api => github.com/kmodules/api v0.18.10-0.20200922195318-d60fe725dea0
 # k8s.io/apimachinery => github.com/kmodules/apimachinery v0.19.0-alpha.0.0.20200922195535-0c9a1b86beec
-# k8s.io/apiserver => github.com/kmodules/apiserver v0.21.2-0.20210716212718-83e5493ac170
+# k8s.io/apiserver => github.com/kmodules/apiserver v0.21.2-0.20220112070009-e3f6e88991d9
 # k8s.io/cli-runtime => k8s.io/cli-runtime v0.18.9
 # k8s.io/client-go => github.com/kmodules/k8s-client-go v0.18.10-0.20200922201634-73fedf3d677e
 # k8s.io/component-base => k8s.io/component-base v0.18.9
