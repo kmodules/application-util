@@ -4,17 +4,15 @@ go 1.15
 
 require (
 	github.com/evanphx/json-patch v4.11.0+incompatible
+	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
-	github.com/json-iterator/go v1.1.11 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/pkg/errors v0.9.1
-	golang.org/x/crypto v0.0.0-20210314154223-e6e6c4f2bb5b // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
 	k8s.io/apimachinery v0.21.1
 	k8s.io/client-go v12.0.0+incompatible // indirect
-	kmodules.xyz/client-go v0.0.0-20211013093146-1fbfd52e78c9
+	k8s.io/kube-openapi v0.0.0-20210421082810-95288971da7e // indirect
+	kmodules.xyz/client-go v0.0.0-20220215012708-9963581d69a7
 	sigs.k8s.io/application v0.8.2-0.20200306235134-f10d9ca8abd4
 )
 
@@ -76,7 +74,7 @@ replace k8s.io/api => github.com/kmodules/api v0.18.10-0.20200922195318-d60fe725
 
 replace k8s.io/apimachinery => github.com/kmodules/apimachinery v0.19.0-alpha.0.0.20200922195535-0c9a1b86beec
 
-replace k8s.io/apiserver => github.com/kmodules/apiserver v0.21.2-0.20210716212718-83e5493ac170
+replace k8s.io/apiserver => github.com/kmodules/apiserver v0.21.2-0.20220112070009-e3f6e88991d9
 
 replace k8s.io/cli-runtime => k8s.io/cli-runtime v0.18.9
 
