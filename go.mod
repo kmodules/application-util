@@ -7,6 +7,7 @@ require (
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/pkg/errors v0.9.1
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	k8s.io/apimachinery v0.21.1
