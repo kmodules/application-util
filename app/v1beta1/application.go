@@ -95,7 +95,6 @@ func TryUpdateApplication(ctx context.Context, c cs.AppV1beta1Interface, meta me
 		glog.Errorf("Attempt %d failed to update Application %s/%s due to %v.", attempt, cur.Namespace, cur.Name, e2)
 		return false, nil
 	})
-
 	if err != nil {
 		err = errors.Errorf("failed to update Application %s/%s after %d attempts due to %v", meta.Namespace, meta.Name, attempt, err)
 	}
@@ -143,7 +142,6 @@ func UpdateApplicationStatus(
 		}
 		return e2 == nil, nil
 	})
-
 	if err != nil {
 		err = fmt.Errorf("failed to update status of Application %s/%s after %d attempts due to %v", meta.Namespace, meta.Name, attempt, err)
 	}
