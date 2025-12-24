@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/evanphx/json-patch v5.6.0+incompatible
-	github.com/golang/glog v1.0.0
+	github.com/golang/glog v1.2.4
 	github.com/pkg/errors v0.9.1
 	k8s.io/apimachinery v0.25.3
 	kmodules.xyz/client-go v0.25.16
